@@ -38,20 +38,20 @@ function App() {
               Al realizar un análisis de los autos, se encuentra una relación entre el tamaño del motor y la capasidad de recorrido por galon por milla.
             </p>
             <figure className="body_figure">
-              <img className="image_figure" src={require('./assets/img1.png')} alt='Gráfica tamaño de motor vs recorrido por galon de combustible'/>
+              <img className="image_figure" src={'https://i.imgur.com/eHnjSSP.png'} alt='Gráfica tamaño de motor vs recorrido por galon de combustible'/>
             </figure>
             <p className="text">
               Por otra parte, Podemos ver otra relación entre los cilindros del motor y la capasidad de recorrido por galon por milla, lo cual, es muy similar con la anterior.
             </p>
             <figure className="body_figure">
-              <img className="image_figure" src={require('./assets/img2.png')} alt='Gráfica cilindros vs recorrido por galon de combustible'/>
+              <img className="image_figure" src={'https://i.imgur.com/D6CLzJD.png'} alt='Gráfica cilindros vs recorrido por galon de combustible'/>
             </figure>
             <p className="text">Es decir, con forme es más grande el motor y mayor número de cílindros menor capacidad de recorrido en millas por galon. Por eso la tendencia de las gráficas tienen un comportamiento similar.</p>
             <p className="text">
               Esta relación como se muestra, nos permite utilizar el algoritmo de regresión. El algoritmo de regresión como se menciono, puede predecir las emisiones de CO2 usando el tamaño de motor ya que esta directamente relacionado. 
             </p>
             <figure className="body_figure">
-              <img className="image_figure" src={require('./assets/img4.png')} alt='Gráfica tamaño de motor vs emisiones de CO2'/>
+              <img className="image_figure" src={'https://i.imgur.com/lZZNciU.png'} alt='Gráfica tamaño de motor vs emisiones de CO2'/>
             </figure>
             <p className="text">
               Como la regresión lineal esta representada por una función y = a + bx.
@@ -73,7 +73,7 @@ function App() {
             </pre>
             <p className="text">Despues de entrenar, graficamos otraves nuestros datos y agregamos la recta pendiente para poder evaluar sus metricas correspondientes.</p>
             <figure className="body_figure">
-              <img className="image_figure" src={require('./assets/img6.png')} alt='Gráfica de la regresión aplicada'/>
+              <img className="image_figure" src={'https://i.imgur.com/Ps8ArUT.png'} alt='Gráfica de la regresión aplicada'/>
             </figure>
             <p className="text">Por último, tenemos que evaluar los resultados con:</p>
             <ul className='lista_Atributos'>
@@ -82,7 +82,7 @@ function App() {
               <li className="atributo">R-squared</li>
             </ul>
             <figure className="body__small--figure">
-              <img className="image__small--figure" src={require('./assets/img7.png')} alt='Gráfica de la regresión aplicada'/>
+              <img className="image__small--figure" src={'https://i.imgur.com/w9Aj6NZ.png'} alt='Gráfica de la regresión aplicada'/>
             </figure>
             <p className="text">Como se ve el valor de R2-score es muy bueno por que esta cerca de 1 de lo contrario nuestro modelo no sería bueno.</p>
           </section>

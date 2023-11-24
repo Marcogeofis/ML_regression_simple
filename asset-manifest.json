@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ML_regression_simple/static/css/main.99ae76c4.css",
+    "main.js": "/ML_regression_simple/static/js/main.47ac5422.js",
+    "index.html": "/ML_regression_simple/index.html",
+    "main.99ae76c4.css.map": "/ML_regression_simple/static/css/main.99ae76c4.css.map",
+    "main.47ac5422.js.map": "/ML_regression_simple/static/js/main.47ac5422.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99ae76c4.css",
+    "static/js/main.47ac5422.js"
+  ]
+}
